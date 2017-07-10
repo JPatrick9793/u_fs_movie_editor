@@ -24,8 +24,14 @@ boondocksaints = media.Movie("Boondock Saints",
                              "https://images-na.ssl-images-amazon.com/images/I/51SfCKlDQoL._SY300_.jpg",
                              "https://youtu.be/ydXojYfCF3I")
 
+#Initialize object "ip_man" with the following parameters
+ip_man = media.Movie("IP Man",
+                       "When Japan invaded China in 1938, one Grandmaster refused to lose his honor...",
+                       "http://img.moviepostershop.com/ip-man-movie-poster-2008-1020698460.jpg",
+                       "https://youtu.be/QLy7gIH1FeA")
+
 #create a list of objects from class Movie to be passed into the open_movies_page function
-movies = (toystory, avatar, boondocksaints)
+movies = (boondocksaints, ip_man, toystory, avatar)
 
 #Call fresh_tomatoes to create a website using the list "movies"
 fresh_tomatoes.open_movies_page(movies)
