@@ -40,7 +40,7 @@ main_page_head = '''
             padding-top: 20px;
         }
         .movie-tile:hover {
-            background-color: #EEE;
+            background-color: #82F5EF;
             cursor: pointer;
         }
         .scale-media {
@@ -54,7 +54,7 @@ main_page_head = '''
             width: 100%;
             left: 0;
             top: 0;
-            background-color: white;
+            background-color: black;
         }
     </style>
     <script type="text/javascript" charset="utf-8">
@@ -107,7 +107,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers: John Conway's Selection.</a>
           </div>
         </div>
       </div>
