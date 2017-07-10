@@ -1,4 +1,7 @@
 # u_fs_movie_editor
+
+**This repo and files contained within are attributed to Udacity**
+
 ## welcome to the fresh_tomatoes movie trailer website. 
 <br>To access the website:
 <ol>
